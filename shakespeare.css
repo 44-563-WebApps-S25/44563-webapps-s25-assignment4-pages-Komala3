@@ -1,84 +1,135 @@
 .speech {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: black;
-  }
- 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
 .stage-direction {
-    font-family: 'Times New Roman', serif;
-    font-size: 14px;
-    color: black;
-    background-color: lightgray; 
-    padding: 5px;
-  }
-    
-  .stage-direction:hover {
-    background-color: rgb(166, 255, 0);  
-    color: rgb(255, 0, 234);                
-  }
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  color: black;
+  background-color: lightgray; 
+  padding: 5px;
+}
   
-  .name {
-    font-family: 'Georgia', serif;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .COUNTESS {
-    color: maroon;
-  }
-  .BERTRAM {
-    color: orange;
-  }
-  .LAFEU {
-    color: green;
-  }
-        
+.stage-direction:hover {
+  background-color: rgb(166, 255, 0);  
+  color: rgb(255, 0, 234);                
+}
+
+.name {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.COUNTESS {
+  color: maroon;
+}
+.BERTRAM {
+  color: orange;
+}
+.LAFEU {
+  color: green;
+}
+      
 
 table {
-    width: 100%; 
-    border-collapse: collapse; 
-    margin-top: 20px; 
-  }
-  
-  
-  th {
-    background-color: #4CAF50; 
-    color: white; 
-    padding: 16px; 
-    text-align: center; 
-    font-size: 15px; 
-  }
-  
-  
-  td {
-    border: 3px solid #ddd; 
-    padding: 8px; 
-    text-align: center; 
-    font-size: 14px; 
-  }
-  
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2; 
-  }
-  
-  
-  tr:hover {
-    background-color: #dddddd; 
-  }
-  
-  .name:hover {
-    text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.6);
-    border: 2px solid #f00;
-  }
-  
-  
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-top: 20px; 
+}
+
+
+th {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 16px; 
+  text-align: center; 
+  font-size: 15px; 
+}
+
+
+td {
+  border: 3px solid #ddd; 
+  padding: 8px; 
+  text-align: center; 
+  font-size: 14px; 
+}
+
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+
+tr:hover {
+  background-color: #dddddd; 
+}
+
+.COUNTESS:hover {
+  text-shadow: 2px 2px 8px rgba(0, 136, 255, 0.6);
+  border: 2px solid #f00;
+}
+
+.LAFEU:hover {
+  text-shadow: 2px 2px 8px rgba(153, 255, 0, 0.6);
+  border: 2px solid rgb(0, 60, 255);
+}
+
+.BERTRAM:hover {
+  text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.6);
+  border: 2px solid rgb(0, 255, 94);
+}
+
 .speech:hover {
-    
-    text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.7); 
-    
-    
-    border: 2px solid #ff4500;
-    padding: 3px; 
-    border-radius: 5px; 
-  }
   
+  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.7); 
+  
+  
+  border: 2px solid #ff4500;
+  padding: 3px; 
+  border-radius: 5px; 
+}
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.navbar {
+position: fixed;   
+bottom: 0;         
+width: 100%;      
+background-color: #333; 
+text-align: center; 
+padding: 10px 0;   
+}
+
+
+.navbar ul {
+list-style-type: none;
+display: flex;     
+justify-content: center; 
+}
+
+
+.navbar ul li {
+margin: 0 15px;     
+}
+
+
+.navbar ul li a {
+text-decoration: none; 
+color: white;         
+font-size: 18px;      
+font-weight: bold;    
+}
+
+/
+.navbar ul li a:hover {
+color: #ddd;         
+}
