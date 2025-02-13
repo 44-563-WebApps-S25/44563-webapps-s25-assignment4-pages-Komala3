@@ -17,11 +17,30 @@
   color: rgb(255, 0, 234);                
 }
 
-.name {
+.COUNTESS {
   font-family: 'Georgia', serif;
   font-size: 18px;
   font-weight: bold;
+  border: 2px solid transparent; 
+  border-radius: 8px; 
 }
+
+.BERTRAM {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid transparent; 
+  border-radius: 8px; 
+}
+
+.LAFEU {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid transparent; 
+  border-radius: 8px; 
+}
+
 .COUNTESS {
   color: maroon;
 }
@@ -31,7 +50,20 @@
 .LAFEU {
   color: green;
 }
-      
+.COUNTESS:hover {
+  text-shadow: 3px 3px 10px rgba(255, 0, 255, 0.8); 
+  filter: blur(2px);
+}
+
+.BERTRAM:hover {
+  text-shadow: 3px 3px 10px rgba(148, 123, 148, 0.8); 
+  filter: blur(2px);
+}
+
+.LAFEU:hover {
+  text-shadow: 3px 3px 10px rgba(174, 146, 174, 0.8); 
+  filter: blur(2px);
+}
 
 table {
   width: 100%; 
@@ -80,17 +112,6 @@ tr:hover {
   text-shadow: 2px 2px 8px rgba(255, 0, 0, 0.6);
   border: 2px solid rgb(0, 255, 94);
 }
-
-.speech:hover {
-  
-  text-shadow: 2px 2px 10px rgba(255, 69, 0, 0.7); 
-  
-  
-  border: 2px solid #ff4500;
-  padding: 3px; 
-  border-radius: 5px; 
-}
-
 
 
 * {
