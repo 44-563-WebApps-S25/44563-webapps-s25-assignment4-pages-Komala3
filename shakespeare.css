@@ -69,36 +69,36 @@
 }
 
 .table {
-  width: 100%; 
+  width: 50%; 
+  height: 20%;
   border-collapse: collapse; 
   margin-top: 20px; 
 }
 
-
 .table th {
+  border:2px;
   background-color: #4CAF50; 
   color: white; 
   padding: 16px; 
   text-align: center; 
-  font-size: 15px; 
+  
 }
-
 
 .table td {
   border: 3px solid #ddd; 
   padding: 8px; 
   text-align: center; 
-  font-size: 14px; 
+  color: rgb(236, 128, 12);
 }
 
-
-.tr:nth-child(even) {
-  background-color:lightblue; 
+tr:nth-child(even) {
+  background-color: lightblue; 
 }
 
-.tr:nth-child(odd) {
-  background-color:lightseagreen; 
+tr:nth-child(odd) {
+  background-color: lightseagreen; 
 }
+
 
 .COUNTESS:hover {
   text-shadow: 2px 2px 8px rgba(0, 136, 255, 0.6);
@@ -128,8 +128,7 @@ position: fixed;
 bottom: 0;         
 width: 100%;      
 background-color: #333; 
-text-align: center; 
-padding: 10px 0;   
+text-align: center;  
 }
 
 
@@ -152,7 +151,7 @@ font-size: 18px;
 font-weight: bold;    
 }
 
-/
+
 .navbar ul li a:hover {
 color: #ddd;         
 }
