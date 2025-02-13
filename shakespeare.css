@@ -75,7 +75,7 @@
 }
 
 
-th {
+.table th {
   background-color: #4CAF50; 
   color: white; 
   padding: 16px; 
@@ -84,7 +84,7 @@ th {
 }
 
 
-td {
+.table td {
   border: 3px solid #ddd; 
   padding: 8px; 
   text-align: center; 
@@ -92,11 +92,11 @@ td {
 }
 
 
-tr:nth-child(even) {
+.tr:nth-child(even) {
   background-color:lightblue; 
 }
 
-tr:nth-child(odd) {
+.tr:nth-child(odd) {
   background-color:lightseagreen; 
 }
 
